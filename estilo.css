@@ -249,7 +249,9 @@
         
         #servicios .fila .servicio:hover {
             box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+            color: #ff5080;
         }
+               
         
         #servicios .fila .servicio .icono {
             display: inline-block;
@@ -326,7 +328,7 @@
         
         .contenedor-skills .skill .barra .barra-progreso1 {
             background-color: #fff;
-            width: 95%;
+            width: 90%;
             height: 6px;
             animation: progreso1 2s forwards;
         }
@@ -357,7 +359,7 @@
                 width: 0;
             }
             100% {
-                width: 95%;
+                width: 85%;
             }
         }
         
@@ -366,7 +368,7 @@
                 width: 0;
             }
             100% {
-                width: 90%;
+                width: 75%;
             }
         }
         
@@ -375,7 +377,7 @@
                 width: 0;
             }
             100% {
-                width: 90%;
+                width: 70%;
             }
         }
         
@@ -384,7 +386,7 @@
                 width: 0;
             }
             100% {
-                width: 85%;
+                width: 70%;
             }
         }
         /* *********************/
