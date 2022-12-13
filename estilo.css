@@ -104,6 +104,35 @@
             font-size: 35px;
             color: #ff5080;
         }
+        /* Exito */
+        #exito{
+            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/inicio.jpg");
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+        }
+        .div-exito{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #f3f3f3;
+            text-align: center;
+            width: 60%;
+            height: 30%;
+            margin: auto;
+            gap: 50px;
+        }
+        .span-exito{
+            font-size: 35px;
+            
+            color: #ff5080;
+        }
+        .p-exito{
+            font-size: 18px;
+            line-height: 25px;
+            color: #565656;
+            margin-bottom: 12px;
+        }
         
         #inicio .contenido .presentacion .descripcion {
             max-width: 700px;
@@ -516,6 +545,10 @@
         #contacto .btn-enviar:hover {
             background-color: #ff5080;
             color: #fff;
+        }
+        #contacto .submit {
+            width: 12%;
+            margin: auto;
         }
         /* *********************/
         /* seccion F O O T E R */
