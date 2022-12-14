@@ -59,6 +59,16 @@
         #inicio .contenido header .contenido-header nav ul li a:hover {
             color: #ff5080;
         }
+        footer .redes a {
+            text-decoration: none;
+            color: #fff;
+            margin: 12px;
+            font-weight: 400;
+            transition: .5s;
+        }
+        footer .redes a:hover {
+            color: #ff5080;
+        }
         
         #inicio .contenido header .contenido-header .redes a {
             text-decoration: none;
@@ -312,7 +322,7 @@
         }
         
         #servicios .fila .servicio p {
-            font-size: 14px;
+            font-size: 16px;
             line-height: 22px;
         }
         /* *********************/
@@ -415,7 +425,7 @@
                 width: 0;
             }
             100% {
-                width: 70%;
+                width: 50%;
             }
         }
         /* *********************/
